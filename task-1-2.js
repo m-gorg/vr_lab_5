@@ -79,13 +79,13 @@ function init() {
   // Завантаження текстур
   const textureLoader = new THREE.TextureLoader();
   const snakeTexture = textureLoader.load(
-    "/textures/snake.jpg"
+    "./snake.jpg"
   );
   const pipeTexture = textureLoader.load(
-    "/textures/pipe.jpg"
+    "./pipe.jpg"
   );
   const brickTexture = textureLoader.load(
-    "/textures/brick.jpg"
+    "./brick.jpg"
   );
 
   // TORUS
