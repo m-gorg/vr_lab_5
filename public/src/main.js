@@ -1,4 +1,4 @@
-import "./style.css";
+import "src/style.css";
 
 document.getElementById("task1Btn").addEventListener("click", () => {
   window.location.href = "src/task1.html";
